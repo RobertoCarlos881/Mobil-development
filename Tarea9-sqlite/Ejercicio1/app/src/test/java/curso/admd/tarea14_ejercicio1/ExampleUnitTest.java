@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package curso.admd.tarea14_ejercicio1;
 
 import org.junit.Test;
 

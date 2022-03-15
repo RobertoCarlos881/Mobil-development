@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package curso.admd.tarea14_ejercicio1;
 
 import android.content.Context;
 import android.database.sqlite.*;
@@ -9,10 +9,12 @@ public class DbmsSQLiteHelper extends SQLiteOpenHelper {
         super(c, s, cf, v);
     }
     @Override
-    public void onCreate(SQLiteDatabase db){ db.execSQL(sqlCreate);
+    public void onCreate(SQLiteDatabase db){
+        db.execSQL(sqlCreate);
     }
     @Override
     public void onUpgrade(SQLiteDatabase sqld, int ov, int nv) {
-        sqld.execSQL("DROP TABLE IF EXISTS Contactos"); sqld.execSQL(sqlCreate);
+        sqld.execSQL("DROP TABLE IF EXISTS Contactos");
+        sqld.execSQL(sqlCreate);
     }
 }

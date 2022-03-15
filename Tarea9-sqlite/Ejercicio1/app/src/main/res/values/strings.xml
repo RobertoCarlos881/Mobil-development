@@ -7,6 +7,6 @@
     <string name="sid">ID:</string>
     <string name="ins">Alta</string>
     <string name="cons">Lista</string>
-    <string name="upd">Actualizar</string>
-    <string name="del">Borrar</string>
+    <string name="baja">Baja</string>
+    <string name="cambio">Cambio</string>
 </resources>
