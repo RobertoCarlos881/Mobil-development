@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <WebView
+        android:id="@+id/xwv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/xet"
+        android:focusable="true" />
+    <EditText
+        android:id="@+id/xet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/xllControls"
+        android:hint="Escribir una URL"
+        android:inputType="textUri"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:id="@+id/xllControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/xbn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back24"
+            android:contentDescription="Atrás"/>
+        <ImageButton
+            android:id="@+id/xbn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_home24"
+            android:contentDescription="Página principal"/>
+        <ImageButton
+            android:id="@+id/xbn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_forward24"
+            android:contentDescription="Adelante"/>
+        <ImageButton
+            android:id="@+id/xbn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_history_24"
+            android:contentDescription="Historial"/>
+        <ImageButton
+            android:id="@+id/xbn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_check_24"
+            android:contentDescription="Ir"/>
+    </LinearLayout>
+</RelativeLayout>

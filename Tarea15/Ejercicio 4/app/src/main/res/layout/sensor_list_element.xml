@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/xivImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/xtvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/xivImagen"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/xtvFabricante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/xtvNombre"
+        android:layout_below="@id/xtvNombre"/>
+    <TextView
+        android:id="@+id/xtvTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/xtvNombre"
+        android:layout_below="@id/xtvFabricante"/>
+    <TextView
+        android:id="@+id/xtvPotencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/xtvNombre"
+        android:layout_below="@id/xtvTipo"/>
+    <TextView
+        android:id="@+id/xtvResYRango"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/xtvNombre"
+        android:layout_below="@id/xtvPotencia"/>
+</RelativeLayout>

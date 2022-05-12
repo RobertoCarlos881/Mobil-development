@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/xtvT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#147"
+        android:textColor="#fff"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/xtvPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En pausa"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        android:textColor="@android:color/black"
+        android:visibility="invisible"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/xbnI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar" />
+    <Button
+        android:id="@+id/xbnDetener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pausar"/>
+    <Button
+        android:id="@+id/xbnT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminar" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fecha&amp;Hora-Ejercicio1</string>
+    <string name="xtv_fecha">Fecha de nacimiento:</string>
+    <string name="xtv_nombre">Nombre:</string>
+    <string name="xtv_hora">Hora de nacimiento:</string>
+    <string name="xtv_lista">\nLista de registrados:\n</string>
+    <string name="xtv_encabezados">id\tNombre\t\tFecha\t\tHora</string>
+    <string name="xbtn_guardar">Guardar</string>
+    <string name="xbtn_mostrar">Mostrar registros</string>
+</resources>
