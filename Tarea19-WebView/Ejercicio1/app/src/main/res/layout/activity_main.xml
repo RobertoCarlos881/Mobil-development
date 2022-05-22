@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/xbn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/xbn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/xbn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forward" />
+
+            <Button
+                android:id="@+id/xbn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/xbn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History" />
+
+            <ListView
+                android:id="@+id/lv_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            </ListView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/url"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/xet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Escribir una URL"
+                android:textColor="#000000" />
+
+            <WebView
+                android:id="@+id/xwv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
