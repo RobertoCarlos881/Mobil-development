@@ -1,0 +1,8 @@
+Tarea 39.
+Diseñar una aplicación móvil multiusuario basándose en la aplicación del siguiente sitio web:
+http://mycreativecodes.blogspot.com/2015/10/android-server-socket-example-connect-multiple-clients-server.html
+
+Nota: Generar un reporte con el desarrollo del ejemplo indicado, guardando todos los recursos utilizados 
+en una carpeta comprimida con la sintaxis AlumnoTarea39Grupo.zip. Enviarlo al sitio indicado por el profesor.
+
+
