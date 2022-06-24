@@ -1,4 +1,4 @@
 # Desarrollo_movil
 
-Este repositorio contiene archivos y programas desarrollados en la clase APPLICATION DEVELOPMENT FOR MOBILE DEVICES 
-impartida por el profesor CIFUENTES ALVAREZ ALEJANDRO SIGFRIDO en el ciclo 2022-2.
+This repository contains files and programs developed in the APPLICATION DEVELOPMENT FOR MOBILE DEVICES class
+taught by Professor CIFUENTES ALVAREZ ALEJANDRO SIGFRIDO in the 2022-2 cycle.
